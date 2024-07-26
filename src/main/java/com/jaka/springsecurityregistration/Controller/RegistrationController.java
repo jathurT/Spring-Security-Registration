@@ -1,6 +1,5 @@
 package com.jaka.springsecurityregistration.Controller;
 
-
 import com.jaka.springsecurityregistration.Entity.User;
 import com.jaka.springsecurityregistration.Entity.VerificationToken;
 import com.jaka.springsecurityregistration.Event.RegistrationCompleteEvent;
