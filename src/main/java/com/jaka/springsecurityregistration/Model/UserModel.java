@@ -1,4 +1,4 @@
-package com.jaka.SpringRegistration.Model;
+package com.jaka.springsecurityregistration.Model;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

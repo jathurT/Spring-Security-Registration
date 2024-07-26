@@ -1,13 +1,14 @@
-package com.jaka.SpringRegistration.Service;
+package com.jaka.springsecurityregistration.Service;
 
-import com.jaka.SpringRegistration.Entity.PasswordResetToken;
-import com.jaka.SpringRegistration.Entity.User;
-import com.jaka.SpringRegistration.Entity.VerificationToken;
-import com.jaka.SpringRegistration.Exception.Exceptions.*;
-import com.jaka.SpringRegistration.Model.UserModel;
-import com.jaka.SpringRegistration.Repository.PasswordResetTokenRepository;
-import com.jaka.SpringRegistration.Repository.UserRepository;
-import com.jaka.SpringRegistration.Repository.VerificationTokenRepository;
+
+import com.jaka.springsecurityregistration.Entity.PasswordResetToken;
+import com.jaka.springsecurityregistration.Entity.User;
+import com.jaka.springsecurityregistration.Entity.VerificationToken;
+import com.jaka.springsecurityregistration.Exception.Exceptions.*;
+import com.jaka.springsecurityregistration.Model.UserModel;
+import com.jaka.springsecurityregistration.Repository.PasswordResetTokenRepository;
+import com.jaka.springsecurityregistration.Repository.UserRepository;
+import com.jaka.springsecurityregistration.Repository.VerificationTokenRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;

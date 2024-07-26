@@ -1,8 +1,9 @@
-package com.jaka.SpringRegistration.Event.Listener;
+package com.jaka.springsecurityregistration.Event.Listener;
 
-import com.jaka.SpringRegistration.Entity.User;
-import com.jaka.SpringRegistration.Event.RegistrationCompleteEvent;
-import com.jaka.SpringRegistration.Service.UserService;
+
+import com.jaka.springsecurityregistration.Entity.User;
+import com.jaka.springsecurityregistration.Event.RegistrationCompleteEvent;
+import com.jaka.springsecurityregistration.Service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;

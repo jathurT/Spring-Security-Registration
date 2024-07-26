@@ -1,8 +1,9 @@
-package com.jaka.SpringRegistration.Service;
+package com.jaka.springsecurityregistration.Service;
 
-import com.jaka.SpringRegistration.Entity.User;
-import com.jaka.SpringRegistration.Entity.VerificationToken;
-import com.jaka.SpringRegistration.Model.UserModel;
+
+import com.jaka.springsecurityregistration.Entity.User;
+import com.jaka.springsecurityregistration.Entity.VerificationToken;
+import com.jaka.springsecurityregistration.Model.UserModel;
 
 public interface UserService {
   void saveVerificationTokenForUser(String token, User user);

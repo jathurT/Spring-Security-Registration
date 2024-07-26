@@ -1,6 +1,6 @@
-package com.jaka.SpringRegistration.Event;
+package com.jaka.springsecurityregistration.Event;
 
-import com.jaka.SpringRegistration.Entity.User;
+import com.jaka.springsecurityregistration.Entity.User;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.context.ApplicationEvent;

@@ -1,7 +1,6 @@
-package com.jaka.SpringRegistration.Entity;
+package com.jaka.springsecurityregistration.Entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

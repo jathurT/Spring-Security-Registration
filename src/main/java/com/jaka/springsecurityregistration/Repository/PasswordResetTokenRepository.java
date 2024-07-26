@@ -1,7 +1,8 @@
-package com.jaka.SpringRegistration.Repository;
+package com.jaka.springsecurityregistration.Repository;
 
-import com.jaka.SpringRegistration.Entity.PasswordResetToken;
-import com.jaka.SpringRegistration.Entity.User;
+
+import com.jaka.springsecurityregistration.Entity.PasswordResetToken;
+import com.jaka.springsecurityregistration.Entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

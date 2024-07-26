@@ -1,6 +1,6 @@
-package com.jaka.SpringRegistration.Event.Listener;
+package com.jaka.springsecurityregistration.Event.Listener;
 
-import com.jaka.SpringRegistration.Event.ResendVerificationTokenCompleteEvent;
+import com.jaka.springsecurityregistration.Event.ResendVerificationTokenCompleteEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;

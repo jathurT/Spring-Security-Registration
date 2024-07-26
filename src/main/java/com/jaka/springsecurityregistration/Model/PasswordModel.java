@@ -1,4 +1,4 @@
-package com.jaka.SpringRegistration.Model;
+package com.jaka.springsecurityregistration.Model;
 
 import lombok.Data;
 

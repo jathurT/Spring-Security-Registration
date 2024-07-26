@@ -1,13 +1,14 @@
 package com.jaka.springsecurityregistration.Controller;
 
-import com.jaka.SpringRegistration.Entity.User;
-import com.jaka.SpringRegistration.Entity.VerificationToken;
-import com.jaka.SpringRegistration.Event.RegistrationCompleteEvent;
-import com.jaka.SpringRegistration.Event.ResendVerificationTokenCompleteEvent;
-import com.jaka.SpringRegistration.Event.ResetPasswordCompleteEvent;
-import com.jaka.SpringRegistration.Model.PasswordModel;
-import com.jaka.SpringRegistration.Model.UserModel;
-import com.jaka.SpringRegistration.Service.UserService;
+
+import com.jaka.springsecurityregistration.Entity.User;
+import com.jaka.springsecurityregistration.Entity.VerificationToken;
+import com.jaka.springsecurityregistration.Event.RegistrationCompleteEvent;
+import com.jaka.springsecurityregistration.Event.ResendVerificationTokenCompleteEvent;
+import com.jaka.springsecurityregistration.Event.ResetPasswordCompleteEvent;
+import com.jaka.springsecurityregistration.Model.PasswordModel;
+import com.jaka.springsecurityregistration.Model.UserModel;
+import com.jaka.springsecurityregistration.Service.UserService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

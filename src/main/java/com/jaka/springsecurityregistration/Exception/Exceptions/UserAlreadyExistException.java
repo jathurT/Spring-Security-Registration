@@ -1,4 +1,4 @@
-package com.jaka.SpringRegistration.Exception.Exceptions;
+package com.jaka.springsecurityregistration.Exception.Exceptions;
 
 public class UserAlreadyExistException extends RuntimeException{
   public UserAlreadyExistException(String message) {

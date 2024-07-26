@@ -1,6 +1,6 @@
-package com.jaka.SpringRegistration.Exception.ExceptionHandler;
+package com.jaka.springsecurityregistration.Exception.ExceptionHandler;
 
-import com.jaka.SpringRegistration.Exception.Exceptions.*;
+import com.jaka.springsecurityregistration.Exception.Exceptions.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
