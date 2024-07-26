@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: SpringRegistration
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Abc@123456
+    url: jdbc:mysql://localhost:3306/springregistration
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+  security:
+    user:
+      name: admin
+      password: password
+  mail:
+    host: smtp.gmail.com
+    username: senderEmail
+    password: senderpassword
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  messages:
+    basename: messages
